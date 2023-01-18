@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Consumo</title>
+</head>
+
+<body class="main">
+    <header>
+        <h1 class="title">Calculadora de bebidas por pessoa</h1>
+    </header>
+   
+    <aside>
+        <i class="ph-users-three"></i>
+        <h2>Quant. pessoas</h2>
+        <input class="quant" type="text" id="quant"/>
+
+        <button class="calcular" onclick="espumantePorPessoa()">Calcular por Espumante <i class="ph-brandy"></i></button>
+        <button class="calcular" onclick="vinhoPorPessoa()">Calcular por Vinho <i class="ph-wine"></i></button>
+    </aside>
+   
+    <h2 id="resultado"> </h2>
+   
+    <footer>
+        <div id="social-links">
+            <a href="https://github.com/GregoryGMoraes" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/gregorygmoraes/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/gr%C3%A9gory-moraes-2501941b3/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
